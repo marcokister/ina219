@@ -41,7 +41,7 @@ This project provides a MicroPython code implementation for the Raspberry Pi Pic
    ssd1306.py is specially for Raspberry Pi Pico / Pico 2 / 2W to connect an oled I2C Display
 
 5. **You can find more information about the project on my blog** (only in german available)
-   www.kiscando.de
+   [www.kiscando.de](https://kiscando.de/strom-und-spannung-messen-mit-dem-ina219-am-raspberry-pi-pico-w-und-micropython/)
 
 
 #####################################
