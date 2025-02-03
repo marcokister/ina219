@@ -26,8 +26,11 @@ while True:
         current = ina.current
         voltage = ina.bus_voltage
         
-        if current < 0:
+        if current <= 0.05:
             current = 0
+            
+        if voltage <= 0.05:
+            voltage = 0
             
         print("{:.2f} mA  {:.2f} V".format(current, voltage))
         utime.sleep_ms(250)
