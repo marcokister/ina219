@@ -37,8 +37,10 @@ This project provides a MicroPython code implementation for the Raspberry Pi Pic
 
 3. **Clone or Download the Repository:**  
    Use Git to clone the repository or download it as a ZIP file from GitHub.
+   Use my special ina219.py Module only for Raspberry Pi Pico / Pico 2 / 2W
+   ssd1306.py is specially for Raspberry Pi Pico / Pico 2 / 2W to connect an oled I2C Display
 
-4. **You can find more information about the project on my blog** (only in german available)
+5. **You can find more information about the project on my blog** (only in german available)
    www.kiscando.de
 
 
