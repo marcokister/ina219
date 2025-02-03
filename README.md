@@ -1,5 +1,8 @@
 # INA219 Raspberry Pi Pico with MicroPython Code for Measuring Voltage and Current
 
+### !!! FIND more Information on https://kiscando.de/strom-und-spannung-messen-mit-dem-ina219-am-raspberry-pi-pico-w-und-micropython/ ###
+### only in german available ###
+
 ## Overview
 This project provides a MicroPython code implementation for the Raspberry Pi Pico to measure voltage and current using an INA219 sensor module. It is designed as a simple and effective example for real-time monitoring of electrical parameters in embedded applications.
 
@@ -39,6 +42,14 @@ This project provides a MicroPython code implementation for the Raspberry Pi Pic
    Use Git to clone the repository or download it as a ZIP file from GitHub.
    Use my special ina219.py Module only for Raspberry Pi Pico / Pico 2 / 2W
    ssd1306.py is specially for Raspberry Pi Pico / Pico 2 / 2W to connect an oled I2C Display
+
+4. **Wiring
+   Connect + from external power supply (battery e.g.) with VIN+ on the INA219 Module
+   Connect - from external power supply (battery e.g.) with GND Raspbery Pi Pico or GND on INA219 Module
+   for only voltage measurement there is NO connection from VIN- to something!
+   ATTENTION: VIN+ is for + from external power supply / battery
+   ATTENTION: VIN- is NOT for connection to - from external power supply / battery !!!!
+   INFO: if you want to meausure current and voltage you have to wire a device like engine or lamp e.g on VIN- to + from device and from - Device to - external power supply / battery
 
 5. **You can find more information about the project on my blog** (only in german available)
    [www.kiscando.de](https://kiscando.de/strom-und-spannung-messen-mit-dem-ina219-am-raspberry-pi-pico-w-und-micropython/)
