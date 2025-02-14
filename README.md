@@ -1,4 +1,4 @@
-# INA219 Raspberry Pi Pico with MicroPython Code for Measuring Voltage and Current
+# INA219 Raspberry Pi Pico with MicroPython Code for Measuring Voltage and Current 9-32V
 
 ### !!! FIND more Information on https://kiscando.de/strom-und-spannung-messen-mit-dem-ina219-am-raspberry-pi-pico-w-und-micropython/ ###
 ### only in german available ###
